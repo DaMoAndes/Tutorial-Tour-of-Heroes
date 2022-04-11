@@ -7,5 +7,7 @@
             {{ product.name }}
         </a>
     </h3>
-
+    <p *ngIf="product.description">
+        description: {{product.description}}
+    </p>
 </div>
